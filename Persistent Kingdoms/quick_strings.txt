@@ -52,7 +52,7 @@ qstr_You_received_access_ You_received_access_for_Door_ID:{s2}_by_{s4}
 qstr_SERVER_ADDRESS/serverapi/p SERVER_ADDRESS/serverapi/pdoorsave?serverID=SERVER_ID&apiKey=SERVER_API_KEY&pdoorID={s1}&pdoorOW={reg2}
 qstr__ _
 qstr_____________________ ------------------------------------------------------------------------------
-qstr______________________ _________________________list_of_commands_______________________________
+qstr______________________ _________________________lista_de_comandos_______________________________
 qstr___/darchave__player_ _'/darchave_(player_id)_(door_id)'_dar_acesso_para_alguem.
 qstr___/removerchave__pla _'/removerchave_(player_id)_(porta_id)'_remover_acesso_para_alguem.
 qstr___/comprar_casa__por _'/comprar_casa_(porta_id)'_compra_uma_casa.

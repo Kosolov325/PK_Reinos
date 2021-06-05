@@ -9627,7 +9627,7 @@ scripts.extend([
 
    (try_begin), #Do that for remove
     (neq, ":player_id", 0),
-    (str_store_substring, s0, s0, 13),
+    (str_store_substring, s0, s0, 12),
 
     (assign, ":error", 0),
     (str_clear, s1),
@@ -9706,7 +9706,7 @@ scripts.extend([
     
     (try_begin), #Do that for givekeys
     (neq, ":player_id", 0),
-    (str_store_substring, s0, s0, 9),
+    (str_store_substring, s0, s0, 8),
 
     (assign, ":error", 0),
     (str_clear, s1),
@@ -9779,7 +9779,7 @@ scripts.extend([
   ("cf_phs_buy", #Koso
    [(store_script_param, ":player_id", 1),
 
-     (str_store_substring, s0, s0, 13),
+     (str_store_substring, s0, s0, 12),
 
     (str_clear, s1),
     (str_regex_get_matches, ":amount", s1, s0, "str_regex_target", 1),
@@ -9804,7 +9804,7 @@ scripts.extend([
     ("cf_phs_sell", #Koso
    [(store_script_param, ":player_id", 1),
 
-     (str_store_substring, s0, s0, 12),
+     (str_store_substring, s0, s0, 11),
 
      (str_clear, s1),
     (str_regex_get_matches, ":amount", s1, s0, "str_regex_target", 1),
@@ -9829,7 +9829,7 @@ scripts.extend([
      (try_begin),
        (multiplayer_send_string_to_player,":player_id", server_event_script_message, "@ "),
        (multiplayer_send_string_to_player,":player_id", server_event_script_message, "@------------------------------------------------------------------------------"),
-       (multiplayer_send_string_to_player,":player_id", server_event_script_message, "@                         list of commands                               "),
+       (multiplayer_send_string_to_player,":player_id", server_event_script_message, "@                         lista de comandos                               "),
        (multiplayer_send_string_to_player,":player_id", server_event_script_message, "@ '/darchave (player id) (door_id)' dar acesso para alguem."),
        (multiplayer_send_string_to_player,":player_id", server_event_script_message, "@ '/removerchave (player id) (porta id)' remover acesso para alguem."),
        (multiplayer_send_string_to_player,":player_id", server_event_script_message, "@ '/comprar casa (porta id)' compra uma casa."),
