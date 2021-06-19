@@ -9894,6 +9894,7 @@ scripts.extend([
 
     (try_begin),
     (multiplayer_send_string_to_player,":player_id", server_event_script_message, "@Sistema de Propriedade Privada - id da porta: {reg1}"),
+    (multiplayer_send_string_to_player,":player_id", server_event_script_message, "@Preco: {reg2} Golds"),
     (assign, ":fail", 1),
        (try_for_range, ":pdoor_slot_id", slot_player_pdoor_id, slot_player_pdoor_end),
         (player_slot_eq, ":player_id", ":pdoor_slot_id", reg1),

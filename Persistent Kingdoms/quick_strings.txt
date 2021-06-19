@@ -1,4 +1,4 @@
-76
+77
 qstr_Connection_successfu Connection_successfully_made_with_the_script_server.
 qstr_Connection_to_script Connection_to_script_server_denied._Invalid_server_id_/_api_key.
 qstr_Player_name_already_ Player_name_already_taken._Use_a_different_one!
@@ -67,6 +67,7 @@ qstr_id id
 qstr_That_s_your_ID:_{reg That's_your_ID:_{reg0}
 qstr_ERROR:_Inexistent_co ERROR:_Inexistent_command_or_something_went_wrong!
 qstr_Sistema_de_Proprieda Sistema_de_Propriedade_Privada_-_id_da_porta:_{reg1}
+qstr_Preco:_{reg2}_Golds Preco:_{reg2}_Golds
 qstr_SERVER_ADDRESS/serverapi/pd SERVER_ADDRESS/serverapi/pdoorload?serverID=SERVER_ID&apiKey=SERVER_API_KEY&instanceid={reg0}&pdoorID={reg1}
 qstr_SERVER_ADDRESS/serverapi/i SERVER_ADDRESS/serverapi/ibanksave?serverID=SERVER_ID&apiKey=SERVER_API_KEY&ibankid={reg0}&ibankit={s1}
 qstr_SERVER_ADDRESS/serverapi/ib SERVER_ADDRESS/serverapi/ibankload?serverID=SERVER_ID&apiKey=SERVER_API_KEY&instanceid={reg0}&ibankid={reg1}

@@ -288,7 +288,7 @@ def spr_rotate_door_triggers(hit_points=1000, resource_class=item_class_wood, le
           (scene_prop_set_slot, ":instance_id", slot_scene_prop_pdoor_default_cost, 100000),
          (else_try),
           (is_between, ":val_1", 31, 51),
-          (scene_prop_set_slot, ":instance_id", slot_scene_prop_pdoor_default_cost, 200000),
+          (scene_prop_set_slot, ":instance_id", slot_scene_prop_pdoor_default_cost, 300000),
          (try_end),
       (try_end), #koso_end
       (prop_instance_get_variation_id_2, ":is_weak", ":instance_id"),
