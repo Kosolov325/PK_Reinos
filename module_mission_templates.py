@@ -1110,7 +1110,7 @@ skybox_update_interval = (5, 0, 0, [], [
 ])
 
 #koso
-save_ibank = (0, 0, 60, [],
+save_ibank = (60, 0, 0, [],
    [
     (gt, "$g_ibank_qnt", 0),
     (call_script, "script_save_ibank"),

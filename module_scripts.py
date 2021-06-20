@@ -368,7 +368,7 @@ scripts.extend([
          (player_get_slot, reg6, ":player_id", slot_player_pdoor_id_2_ow),
          (player_get_slot, reg7, ":player_id", slot_player_pdoor_id_3_ow),
          (player_get_slot, reg8, ":player_id", slot_player_pdoor_id_4_ow),
-         (str_store_string, s1, "str_message_ib"),
+         (str_store_string, s1, "str_message_keys"),
          (str_store_string, s2, s1),
       (try_end),
       (player_get_unique_id, reg0, ":player_id"),
